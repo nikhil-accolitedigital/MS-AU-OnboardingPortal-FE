@@ -4,9 +4,10 @@
       <span class="menu-spacer"></span>
      
       <span class="example-spacer"></span>
-      <div *ngIf="isLoggedIn">
+      <div *ngIf="isLoggedIn" class="group-tabs">
+        <img src ="{{photo}}" class="image"/>
           <a mat-button [routerLink]="'/home'">{{name}}</a>
-          <img src ="{{photo}}" class="image"/>
+          
           <button mat-raised-button color="warn"  (click)= "logout()">Log Out</button>
       </div>
     </mat-toolbar-row>
