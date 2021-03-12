@@ -117,7 +117,7 @@
           </div>
   </div>
 
-  <button type="submit" (click)="update()" class="btn btn-primary">Update</button>
+  <button type="submit" (click)="update()" class="btn btn-primary" [disabled]="!updateform.valid">Update</button>
       </form>
     </div>
    
