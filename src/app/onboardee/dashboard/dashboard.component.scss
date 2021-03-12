@@ -1,0 +1,178 @@
+.header{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logout{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+}
+
+.image{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    padding-right: 60px;
+}
+.create-onboardee{
+    margin-top: 4%;
+    margin-left: 25%;
+}
+.trends{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 60%;
+}
+.search{
+    text-align: center;
+    margin-top: 2%;
+    font-family: monospace;
+    font-size: 18px;
+}
+.search-bar{
+    text-align: center;
+}
+
+
+.btn{
+    background-color: red;
+    border-radius: 10px;
+}
+table{
+    width: 100%;
+}
+
+.edit-btn{
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-decoration-color: white;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f7192b;
+  border: none;
+  border-radius: 15px;
+
+}
+.edit-btn:hover {background-color: #d82158}
+
+.edit-btn:active {
+  background-color: #fc3848;
+  transform: translateY(4px);
+}
+
+.delete-btn{
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 10px;
+  text-decoration-color: white;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f7192b;
+  border: none;
+  border-radius: 15px;
+
+}
+
+.delete-btn:hover {background-color: #d82158}
+
+.delete-btn:active {
+  background-color: #fc3848;
+  transform: translateY(4px);
+}
+
+.create-btn{
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-decoration-color: white;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f7192b;
+  border: none;
+  border-radius: 15px;
+
+}
+
+.create-btn:hover {background-color: #d82158}
+
+.create-btn:active {
+  background-color: #fc3848;
+  transform: translateY(4px);
+}
+
+.view-btn{
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 10px;
+  text-decoration-color: white;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f7192b;
+  border: none;
+  border-radius: 15px;
+
+}
+
+.view-btn:hover {background-color: #d82158}
+
+.view-btn:active {
+  background-color: #fc3848;
+  transform: translateY(4px);
+}
+
+.btn-primary-spacing 
+{
+margin-top: 5px;
+margin-right: 10px;
+margin-bottom: 10px !important;
+}
+
+.search-btn{
+  display: inline-block;
+  padding: 15px 25px 15px 15px;
+  font-size: 10px;
+  text-decoration-color: white;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f7192b;
+  border: none;
+  border-radius: 15px
+
+}
+
+.search-btn:hover {background-color: #d82158}
+
+.search-btn:active {
+  background-color: #fc3848;
+  transform: translateY(4px);
+}
+
+
+.home{
+background-image: url('https://wallpaperaccess.com/full/754632.jpg');
+width: 100vw;
+height: 100vh; 
+background-size: 100% 100% 100% 100%;
+position: absolute;
+
+}

@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <h1 class="header"><strong>Welcome to MS - AU Management Portal </strong></h1>
+      <span class="menu-spacer"></span>
+     
+      <span class="example-spacer"></span>
+      <div *ngIf="isLoggedIn">
+          <a mat-button [routerLink]="'/home'">{{name}}</a>
+          <img src ="{{photo}}" class="image"/>
+          <button mat-raised-button color="warn"  (click)= "logout()">Log Out</button>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
