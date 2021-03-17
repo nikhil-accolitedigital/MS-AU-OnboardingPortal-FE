@@ -7,7 +7,7 @@ const routes: Routes = [
   {path: "login", pathMatch: "full" , component: LoginComponent},
   {path: "home", pathMatch: "full", component: HomeComponent},
   {path: "onboardee", loadChildren:()=> import ('./onboardee/onboardee.module').then(m=> m.OnboardeeModule)},
-  // {path: "**", redirectTo: "/login"}
+  {path: "**", redirectTo: "/login"}
 ];
 
 @NgModule({
